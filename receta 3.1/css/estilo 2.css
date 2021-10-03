@@ -1,0 +1,70 @@
+body {background-color: #fdcae1;}
+
+section { width: 100%; background-color:  #138d75 ; border-radius: 6px}
+.texto {text-decoration:underline; font-size: x-large}
+.letramediana {font-size: small; margin: 1%; position:absolute; top: 90%; right: 9%; width: 30%; height: 60px}
+.iconsw{position: fixed; top: 75%; right: 0%; width: 15%; height: 60px;}
+.efecto {background-color: red;}
+.letragrande2 {font-size: x-large; width: 40%}
+
+header {background-color: #fdfd96;}
+form {background-color:   #2471a3 ; position:relative; box-sizing: border-box; display:list-item; text-align: center; border-radius: 6px}
+label {background-repeat: no-repeat; line-height: 1.5em; letter-spacing: -0.015em; display: block; height: 25px; font-family: Arial, Helvetica, sans-serif; font-size: large; }
+input { width: 30%; display: inline-block; position: relative;}
+textarea  {width: 30%}
+footer {background-color:  #f0b27a; }
+
+/* ? ------------- PSEUDO-CLASES ------------- */
+section:hover { width: 100%;}
+header:hover {background-color: yellow}
+h2:hover {background-color: silver}
+textarea:hover {background-color: violet}
+.efecto:hover {background-color: orange; font-size: 20px; color: black; font-family: cursive; font-weight: 400}
+
+.efecto:active {color: red}
+a:visited  { color:  #7dcea0 }
+a:active {color: orange}
+/* ? --- --- --- --- ELEMENTOS --- --- --- --- */
+section::after{ content: "El Antojo";}
+form::before { content: "*obligatorio";position:absolute; top: 78%; left: 10%; width: 30%; height: 60px; }
+
+/* ? --- --- --- --- ANIMACION --- --- --- --- */
+#circulo {width: 90px; height: 90px; border-radius:90px; top: 33%; left:5%; background: #aaa;
+  animation-name: cuartocirculo; animation-duration: 4s;
+  position: absolute; animation-direction: reverse; animation-timing-function:ease;}
+
+  @keyframes cuartocirculo {0% {background:#aaa; left: 50px; top: 150px;}
+  25% {background: red; left: 100px; top: 150px;}
+  50% {background: orange; left: 100px; top: 150px;}
+  75% {background: green; left: 0px, top:150px;}
+  100% {background: yellow; left: 50px; top: 150px;} }
+
+  #circulo2 {width: 90px; height: 90px; border-radius:90px; top: 33%; left:17%; background: #aaa;
+    animation-name: cuartocirculo2; animation-duration: 4s;
+    position: absolute; animation-direction: reverse; animation-timing-function:ease;}
+
+    @keyframes cuartocirculo2 {0% {background:#aaa; left: 200px; top: 150px;}
+    25% {background: red; left: 250px; top: 150px;}
+    50% {background: orange; left: 250px; top: 150px;}
+    75% {background: green; left: 0px, top:150px;}
+    100% {background: yellow; left: 200px; top: 150px;} }
+
+    #circulo3 {width: 90px; height: 90px; border-radius:90px; top: 33%; right:5%; background: #aaa;
+      animation-name: cuartocirculo3; animation-duration: 4s;
+      position: absolute; animation-direction: reverse; animation-timing-function:ease;}
+
+      @keyframes cuartocirculo3 {0% {background:#aaa; right: 50px; top: 150px;}
+      25% {background: red; right: 100px; top: 150px;}
+      50% {background: orange; right: 100px; top: 150px;}
+      75% {background: green; right: 0px, top:150px;}
+      100% {background: yellow; right: 50px; top: 150px;} }
+
+      #circulo4 {width: 90px; height: 90px; border-radius:90px; top: 33%; right:17%; background: #aaa;
+        animation-name: cuartocirculo4; animation-duration: 4s;
+        position: absolute; animation-direction: reverse; animation-timing-function:ease;}
+
+        @keyframes cuartocirculo4 {0% {background:#aaa; right: 200px; top: 150px;}
+        25% {background: red; right: 250px; top: 150px;}
+        50% {background: orange; right: 250px; top: 150px;}
+        75% {background: green; right: 0px, top:150px;}
+        100% {background: yellow; right: 200px; top: 150px;} }
