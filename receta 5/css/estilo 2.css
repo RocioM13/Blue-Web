@@ -1,0 +1,104 @@
+body { background: #fdcae1 url("../imagen/pngwing.png"); height: 11.1vh; background-attachment: scroll;
+       background-size : contain; }
+
+section { background-color:  #138d75 ; border-radius: 6px; font-size: iren; }
+.texto {text-decoration:underline; font-size: 1.4rem}
+.texto2 {text-decoration:underline; font-size: 1.4rem; font-family: 'Akronim', cursive;}
+.letramediana {font-size: 0.8rem; margin: 1%; position:absolute; top: 75%; right: 15%; width: 13vw;
+               height: 13vw; font-family: KristenITC;}
+.iconsw{position: fixed; top: 75%; right: 0%; width: 15%; height: 60px;}
+.efecto {background-color: red;}
+.letragrande2 {font-size: 1em; line-height: 1.5em; position:relative; right: 12%; font-family: BT seminegrita;}
+
+header {background-color: #fdfd96; font-size: iren;}
+form {background-color:   #2471a3;
+  position:relative; box-sizing: border-box; display:list-item; text-align: center; border-radius: 6px}
+label {background-repeat: no-repeat; line-height: 1.5em; letter-spacing: -0.015em;
+       display: block; height: 25px; font-family: Arial, Helvetica, sans-serif; font-size: large; }
+input { width: 30%; display: inline-block; position: relative;}
+textarea  {width: 30%}
+footer {background-color:  #f0b27a; font-size: iren;}
+
+.tamañoimagen {width: 6vh; height: 10vh;}
+.tamañoimagen2 {;}
+.orderimag { display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;}
+
+h2 {font-size: iren;} }
+.imagen { width: 10vw; height: 10vw;}
+.imagen { background-color: blue; padding: 8px;}
+
+/* ? ------------- FUENTES ------------- */
+
+@font-face {
+  font-family: 'KristenITC'; src: url("../fuentes/ITCKRIST.TTF")
+  format("truetype");
+}
+
+@font-face {
+  font-family: 'BT seminegrita'; src: url("../fuentes/tt0627m_.TTF")
+  format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Akronim&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+/* ? ------------- PSEUDO-CLASES ------------- */
+section:hover { width: 100%;}
+header:hover {background-color: yellow}
+h2:hover {background-color: silver}
+textarea:hover {background-color: violet}
+.efecto:hover {background-color: orange; font-size: 20px; color: black; font-family: cursive; font-weight: 400}
+
+.efecto:active {color: red}
+a:visited  { color:  #7dcea0 }
+a:active {color: orange}
+/* ? --- --- --- --- ELEMENTOS --- --- --- --- */
+section::after{ content: "El Antojo"; font-family: 'Ephesis', cursive;}
+form::before { content: "*obligatorio";position:absolute; top: 78%; left: 8%; width: 30%; height: 60px; font-family: 'Ephesis', cursive;}
+
+/* ? ------------- Media Queries ------------- */
+@media (min-width: 575px) {@keyframes {display:none;}
+@media (max-width: 576px){ section img { display: flex; flex-direction: row;}}
+@media (max-width: 575px){ .little {display: none}}
+
+/* ? --- --- --- --- ANIMACION --- --- --- --- */
+#circulo {width: 67px; height: 67px; border-radius:70px; top: 33%; left:1%; background: #aaa;
+  animation-name: cuartocirculo; animation-duration: 4s;
+  position: absolute; animation-direction: reverse; animation-timing-function:ease;}
+
+  @keyframes cuartocirculo {0% {background:#aaa; left: 4vh; top: 25vh;}
+  25% {background: red; left: 30vh; top: 25vh;}
+  50% {background: orange; left: 30vh; top: 25vh;}
+  75% {background: green; left: 0vh, top:25vh;}
+  100% {background: yellow; left: 2vh; top: 25vh;} }
+
+  #circulo2 {width: 67px; height: 67px; border-radius:70px; top: 33%; left:17%; background: #aaa;
+    animation-name: cuartocirculo2; animation-duration: 4s;
+    position: absolute; animation-direction: reverse; animation-timing-function:ease;}
+
+    @keyframes cuartocirculo2 {0% {background:#aaa; left: 2vh; top: 25vh;}
+    25% {background: red; left: 10vh; top: 25vh;}
+    50% {background: orange; right: 10vh; top: 25vh;}
+    75% {background: green; left: 0vh, top: 25vh;}
+    100% {background: yellow; left: 2vh; top: 25vh;} }
+
+    #circulo3 {width: 67px; height: 67px; border-radius:70px; top: 33%; right:1%; background: #aaa;
+      animation-name: cuartocirculo3; animation-duration: 4s;
+      position: absolute; animation-direction: reverse; animation-timing-function:ease;}
+
+      @keyframes cuartocirculo3 {0% {background:#aaa; right: 4vh; top: 25vh;}
+      25% {background: red; right: 30vh; top: 25vh;}
+      50% {background: orange; right: 30vh; top: 25vh;}
+      75% {background: green; right: 0vh, top:25vh;}
+      100% {background: yellow; right: 2vh; top: 25vh;} }
+
+      #circulo4 {width: 67px; height: 67px; border-radius:70px; top: 33%; right:17%; background: #aaa;
+        animation-name: cuartocirculo4; animation-duration: 4s;
+        position: absolute; animation-direction: reverse; animation-timing-function:ease;}
+
+        @keyframes cuartocirculo4 {0% {background:#aaa; right: 2vh; top: 25vh;}
+        25% {background: red; right: 10vh; top: 25vh;}
+        50% {background: orange; right: 10vh; top: 25vh;}
+        75% {background: green; right: 0vh, top: 25vh;}
+        100% {background: yellow; right: 2vh; top: 25vh;} }
