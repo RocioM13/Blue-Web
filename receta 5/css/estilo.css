@@ -1,0 +1,97 @@
+body {background-color: #fdcae1; background-image: url("../imagen/pngwing.com.png");
+background-position: center; background-size : cover; background-attachment: fixed; }
+#mapasonido {color: #7fb3d5; text-align: center;  font-size: 1em; width: 25vh}
+#listadeingrediente {color: #eef6b0;}
+#preparacion {color: #eef6b0; }
+#video {color: #7fb3d5;}
+#imagen {color: #7fb3d5; text-align: center;}
+.letragrande {font-size: 1.3rem;  background-color: #edb8fa; font-family: 'ZCOOL KuaiLe', cursive;}
+img { width: 25vw; height: 29vw; margin: 3%}
+.texto{text-decoration:underline; line-height: 1.5rem; font-size: 1.4rem; font-family: 'Akronim', cursive;}
+.texto2{text-decoration:underline; line-height: 1.5rem; font-size: 1.4rem; font-family: 'Ephesis', cursive; }
+.letragrande2 {position: relative; right: 1% ; font-size: 1.3rem; line-height: 1.5em;  font-family: BT seminegrita; width: ;}
+.letraazul2 {font-size: 1.3rem; color: #a2a0a1;         background-color: #75f9f2; font-family:elenco;}
+.tamañodetexto { position: relative; right: 15px; font-size: 1.5em;  background-color:    #9b59b6 ;}
+.tamañodetexto2 { position: relative; right: 20px; font-size: 1.3em;  background-color: #edb8fa; font-family: LucidaCursiva; }
+.tamañoimagen {width: 30%; height: 80px;}
+.Sonido {width: 30vh; height: 10vh}
+.tamañodetexto {font-size: iren;}
+.letragrande3 {position: relative; left: 35% ; font-size: 1.3rem; line-height: 1.5em;  font-family: BT seminegrita;}
+
+nav { display: flex; justify-content: space-around;}
+
+h2{ font-size: "iren";}
+a {font-size: iren; width: 50vw}
+iframe { width: 35vw; height: 30vw;}
+
+header {background-color: #fdfd96;}
+nav {background-color:    #ebdef0 ; padding: 14px 20px;}
+section {background-color:#ffbfb0}
+aside {background-color: #ffbfb0;}
+footer {background-color:   #ef9a9a ;}
+
+section{ float: left; width: 50%; height: 250px; overflow: scroll;
+  border: 3px solid black; box-sizing: border-box; padding: 1%}
+aside{ width: 50%; background-position: 10% left; height: 250px; overflow: scroll;
+  border: 3px solid black; box-sizing: border-box; padding: 5px}
+
+footer{clear: both; box-sizing: border-box; font-size: iren;}
+
+/* ? ------------- FUENTES ------------- */
+@font-face {
+  font-family: 'elenco'; src: url("../fuentes/ELEPHNT.TTF")
+  format("truetype");
+}
+
+@font-face {
+  font-family: 'BT seminegrita'; src: url("../fuentes/tt0627m_.TTF")
+  format("truetype");
+}
+
+@font-face {
+  font-family: 'LucidaCursiva'; src: url("../fuentes/LCALLIG.TTF")
+  format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Akronim&display=swap");
+
+/* ? ------------- PSEUDO-CLASES ------------- */
+
+.tamañodetexto2:visited  { color: green}
+.tamañodetexto2:active {color: orange}
+header:hover {background-color: yellow}
+a:visited  { color:  #7dcea0 }
+a:active {color: orange}
+
+/* ? ------------- Media Queries ------------- */
+@media (max-width: 575px){ {display:none; } }
+
+@media (max-width: 575px){ .little {display: none}}
+
+@media (max-width: 575px){ header {background-color: red;} }
+
+@media (max-width: 991px){ aside img { width: 30vw} }
+
+@media (max-width: 575px){ nav {display: flex; flex-wrap: wrap; justify-content: center;}}
+
+@media (orientation: landscape ) and (max-width: 991px){ .letragrande2 { display: flex; justify-content: center; height: 6vw; font-size: 1rem}}
+
+@media (orientation: landscape ) and (max-width: 1280px){ .letragrande2 { display: flex; justify-content: center; height: 4vw;}}
+
+@media (orientation: landscape ) and (max-width: 575px){ .letragrande2 { display: flex; justify-content: center; height: 5vw; font-size: 1.2rem;}}
+
+@media (max-width: 575px) {section {background-color: violet;}}
+
+@media (max-width: 991px) {section{ display: flex; align-items: baseline;}}
+
+@media (max-width: 1280px) {aside {background-color:    #ffe082  ; display: flex; flex-direction:row-reverse;}}
+
+@media (max-width: 1280px) {.desaparecer { display: none;}}
+
+@media (max-width: 575px) {.desaparecer { display: block;}}
+
+@media (max-width: 1280px){ nav {display: flex; align-items:center;}
