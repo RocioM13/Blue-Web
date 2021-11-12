@@ -1,0 +1,162 @@
+body {background-color: #fdcae1; background-image: url("../imagen/pngwing.com.png");
+background-position: center; background-size : cover; background-attachment: fixed;}
+#mapasonido {color: #7fb3d5; text-align: center;  font-size: 1em; width: 25vh}
+#listadeingrediente {color: #eef6b0;}
+#preparacion {color: #eef6b0; }
+#video {color: #7fb3d5;}
+#imagen {color: #7fb3d5; text-align: center;}
+.letragrande {font-size: 1.3rem;  background-color: #edb8fa; font-family: 'ZCOOL KuaiLe', cursive;}
+img { width: 25vw; height: 23vw; margin: 3%}
+.texto{text-decoration:underline; line-height: 1.5rem; font-size: 1.4rem; font-family: 'Akronim', cursive;}
+.texto2{text-decoration:underline; line-height: 1.5rem; font-size: 1.4rem; font-family: 'Ephesis', cursive; }
+.letragrande2 {position: relative; right: 1% ; font-size: 1.3rem; line-height: 1.5em;
+  font-family: BT seminegrita; width: ;}
+.letraazul2 {font-size: 1.3rem; color: #a2a0a1;         background-color: #75f9f2; font-family:elenco;}
+.tamañodetexto { position: relative; right: 15px; font-size: 1.5em;  background-color:    #9b59b6 ;}
+.tamañodetexto2 { position: relative; right: 20px; font-size: 1.3em;  background-color: #edb8fa;
+   font-family: LucidaCursiva; }
+.tamañoimagen {width: 30%; height: 80px;}
+.Sonido {width: 30vh; height: 10vh;}
+.Sonido2 {position: relative; top: 48px; left: 20px;}
+.tamañodetexto {font-size: iren;}
+.letragrande3 {position: relative; left: 35% ; font-size: 1.3rem; line-height: 1.5em;
+  font-family: BT seminegrita;}
+
+  .iconsw{float: left; width: 50%; height: 300px; overflow:hidden;
+border-radius: 1px solid black; box-sizing: border-box; padding: 1%;}
+  .iconsw{display: flex; justify-content: center; align-items: center;}
+
+.elementos2 {background-color: silver;}
+.elementos3 {background-color: #feb062;}
+.elementos4 {background-color: #88bef5;}
+.elementos5 {background-color: yellow;}
+
+p.big{
+  font-size: 1.1em;
+  line-height: 1.5em;}
+
+  .info-box{
+    background-color: #e7b3b3;
+    margin: 0px auto;
+    padding: 80px 0 80px 0;
+    color: white;
+    text-align: center;
+  }
+
+  #flex-p{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fa-star, .fa-thumbs-up, .fa-check{
+  font-size: 2.7em;
+  display: block;
+  color: black;
+  color: white;
+  margin-bottom: 30px;}
+
+.img1 {width: 10vw; height: 10vw;}
+
+.card {font: 15px poppins, sans-serif; margin: 0px 111.5px; padding: 0px 100px;
+  float: left; box-sizing:content-box; font-size: 0.5em;}
+
+.card-text {background-color: white; font-size: x-large; margin: 1%; padding: 5px; width: 10vw; height: 10vw;}
+.card-title {background-color: silver; font-size: large; margin:1%; padding: 5px; height: 5vw;}
+
+nav { display: flex; justify-content: space-around;}
+
+h2{ font-size: "iren";}
+a {font-size: iren; width: 50vw}
+iframe { width: 30vw; height: 21vw;float: none;}
+
+header {background-color: #fdfd96;}
+nav {background-color:    #ebdef0 ; padding: 14px 20px;}
+section {background-color:#ffbfb0}
+aside {background-color: #ffbfb0;}
+footer {background-color:   #ef9a9a ;  }
+
+section{ float: left; width: 50%; height: 250px; overflow: scroll;
+  border: 3px solid black; box-sizing: border-box; padding: 1%}
+aside{ width: 100%; background-position: 10% left; height: 250px; overflow: scroll;
+  border: 3px solid black; box-sizing: border-box; padding: 5px}
+
+footer{clear: both; box-sizing: border-box; font-size: iren;}
+
+/* ? ------------- FUENTES ------------- */
+@font-face {
+  font-family: 'elenco'; src: url("../fuentes/ELEPHNT.TTF")
+  format("truetype");
+}
+
+@font-face {
+  font-family: 'BT seminegrita'; src: url("../fuentes/tt0627m_.TTF")
+  format("truetype");
+}
+
+@font-face {
+  font-family: 'LucidaCursiva'; src: url("../fuentes/LCALLIG.TTF")
+  format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Akronim&display=swap");
+
+/* ? ------------- PSEUDO-CLASES ------------- */
+
+.tamañodetexto2:visited  { color: green}
+.tamañodetexto2:active {color: orange}
+header:hover {background-color: yellow}
+a:visited  { color:  #7dcea0 }
+a:active {color: orange}
+
+/* ? ------------- Media Queries ------------- */
+@media (max-width: 575px){ {display:none; } }
+
+@media (max-width: 575px){ .little {display: none}}
+
+@media (max-width: 575px){ header {background-color: red;} }
+
+@media (max-width: 991px){ aside img { width: 30vw} }
+
+@media (max-width: 575px){ nav {display: flex; flex-wrap: wrap; justify-content: center;}}
+
+@media (orientation: landscape ) and (max-width: 991px){ .letragrande2 { display: flex; justify-content: center; height: 6vw; font-size: 1rem}}
+
+@media (orientation: landscape ) and (max-width: 1280px){ .letragrande2 { display: flex; justify-content: center; height: 4vw;}}
+
+@media (orientation: landscape ) and (max-width: 575px){ .letragrande2 { display: flex; justify-content: center; height: 5vw; font-size: 1.2rem;}}
+
+@media (max-width: 575px) {section {background-color: violet;}}
+
+@media (max-width: 991px) {section{ display: flex; align-items: baseline;}}
+
+@media (max-width: 1280px) {aside {background-color:  #ffe082  ; display: flex; align-items:center;}}
+
+@media (max-width: 1280px){ nav {display: flex; align-items:center;}
+
+@media (max-width: 1280px){.card{ display: flex; justify-content: space-around; align-items: center;}}
+
+@media (max-width: 1280px){.card{ width: 15vw;}}
+
+@media (max-width: 1280px){.card-text{ font-size: 14px;}}
+
+@media (max-width: 1280px){.card-title {width: 10vw;}}
+
+@media (max-width: 575px){.card div {overflow: scroll; height: 30vw; width: 50vw;}}
+@media (max-width: 575px){.img1 {width: 30vw; height: 20vw;}}
+@media (max-width: 575px){.card-title { width: 80vw; height: 15vw;}}
+@media (max-width: 575px){.card-text {width: 100vw; height: 30vw; font-size: small;}}
+@media (max-width: 575px){ .iconsw { height: 13vw; float: right;}}
+@media (max-width: 575px){.iconsw {box-sizing: content-box; margin: 5%;padding: 8%;}}
+
+@media (max-width: 575px){ footer { width: 120%;}}
+@media (max-width: 575px){ nav { width: 120%;}}
+@media (max-width: 575px){ .row { width: 122%; margin: 0px 3px; padding: 5px;}}
+@media (max-width: 575px){ header { width: 120%;}}
+@media (max-width: 575px){ section { width: 120%;}}
+@media (max-width: 575px){aside { width: 120%;}}
