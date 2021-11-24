@@ -1,1 +1,85 @@
-body
+
+body {background-color: black;}
+header{position: relative; background-color: white; height: 10vh;}
+section{ overflow: hidden;
+  border: 3px solid black; box-sizing: border-box;}
+
+  footer{display: flex; align-items: center; justify-content: center;}
+  footer{position: relative;background-color: black;padding: 2%;}
+  img{ width: 30vw; height: 35.4vw;}
+
+  .info-box{
+    margin: 0px auto;
+    padding: 50px 0 50px 0;
+    color: white;
+    text-align: center;
+  }
+  .info-box{
+  margin: 0px auto;
+  padding: px 0 px 0;
+  color: white;
+  text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0 px;
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+}
+.info-box h2{
+  margin-bottom: 1px;
+}
+  p.big{
+    font-size: 1em;
+    line-height: 1em;}
+
+    .fa-star, .fa-thumbs-up, .fa-check{
+      font-size: 2.7em;
+      display: block;
+      color: black;
+      color: white;
+      margin-bottom: 20px;}
+
+      #flex-p{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#flex-p p{
+  padding: 15px;
+  max-width: 300px;
+}
+
+.texto{position:absolute; background-color: blue; margin: 1%; padding: 2%; border-radius: 43%;}
+.bg-dark {}
+img{ width: 30vw; height: 35.4vw;}
+.img1 {height: 36.1vw;}
+
+.card-body {}
+.card-img-top{height: 20vw; width: 30.1vw;}
+.item {display: flex;}
+.col {display:flex; flex-direction: row}
+
+.card {position: relative; display:flex;
+  word-wrap: break-word; border: 1px solid black;
+  border-radius: 0.25rem;
+}
+
+.abajo { background:white; height: 25px; font-size: 1em;}
+
+.tamañoimagen {width: 6vh; height: 10vh;}
+.iconsw{position: fixed; top: 75%; right: 5%; width: 15%; height: 20px;}
+
+/* ? --- --- --- --- ELEMENTOS --- --- --- --- */
+
+.card::before { content: "*Indica que las funciones son subtituladas.";position:absolute; top: 100%; left: 8%; font-size:0.9em; color: white;}
+
+/* ? ------------- Media Queries ------------- */
+
+@media (max-width: 1280px){.card{ display: flex; justify-content: space-around; align-items: center;}}
+@media (max-width: 575px){.img1{ height: 35vw; width: 48vw;}}
+@media (max-width: 575px){img {width: 30vw; height: 32vw;}}
+@media (max-width: 575px){.texto{margin-left:250px; padding: 5%;}}
+@media (max-width: 575px){.heading {
+margin-top: 60px;}
+@media (max-width: 575px){.card-title {font-size: 15px;}}
