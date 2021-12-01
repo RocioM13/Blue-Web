@@ -1,5 +1,6 @@
 
-body {background-color: black;}
+
+body {background-color: black; background-size : cover;}
 header{position: relative; background-color: white; height: 10vh;}
 section{ overflow: hidden;
   border: 3px solid black; box-sizing: border-box;}
@@ -83,3 +84,4 @@ img{ width: 30vw; height: 35.4vw;}
 @media (max-width: 575px){.heading {
 margin-top: 60px;}
 @media (max-width: 575px){.card-title {font-size: 15px;}}
+@media (max-width:575px) {.texto {width: 12vw; height: 12vw;}}
