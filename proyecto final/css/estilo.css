@@ -83,4 +83,3 @@ img{ width: 30vw; height: 35.4vw;}
 margin-top: 60px;}
 @media (max-width: 575px){.card-title {font-size: 11px;}}
 @media (max-width:575px) {.texto {width: 12vw; height: 12vw;}}
-@media (max-width:575px) {.texto {}}
