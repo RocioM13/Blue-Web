@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="Toccine es una cadena de cines de argentina.
+    TocCine cuenta con formatos de proyección 2D y 3D.
+    Nuestros complejos se caracterizan por brindar un ambiente ideal para concurrir con familia.">
+    <meta name="author" content="Toccine">
+    <meta name="keywords" content="cartelera,protocolo,2D,3D,horario,proximos estrenos, compra online,
+    entrada,TocCine buenos aires, TocCine San Martin, TocCine Billinghurst">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo online 2.css">
+    <script src="./javascript/button.js">  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+<style>
+
+        *{ padding:0; margin:0; box-sizing: border-box;}
+          .container { width: 90%; margin:15px auto;}
+          .heading {text-align: center;
+          font-size: 30px;
+        margin-bottom: 50px;}
+
+    .row {display: flex;
+      flex-direction: row-reverse; justify-content:space-around;}
+
+  </style>
+
+    <title>El Mundo De TocCine</title>
+
+  </head>
+  <body>
+
+  <div style="text-align:center; color:white;"> EL MUNDO DE CINE
+    <button  onclick="aviso()"> apretar <button>
+    </div>
+
+    <header class="header">
+      <div class="bg-dark">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+   <div class="container-fluid">
+     <h2 class="texto"style="color:silver">TocCine</h2>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+       <div class="navbar-nav w-100 justify-content-center">
+         <a class="nav-link active" aria-current="page" href="proyecto nuevo.html" style="color:white">Inicio</a>
+         <a class="nav-link" href="#Estrenos" style="color:white">Cartelera/Programacion</a>
+         <a class="nav-link" href="#Proximos Estrenos" style="color:white">Proximos Estrenos</a>
+         <a class="nav-link" href="#flex-p" style="color:white">Contacto</a>
+       </div>
+       <div class="input-group">
+           <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+           <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
+       </div>
+       <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+           <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;"><i class="fas fa-user fa-fw"></i></a>
+               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="login.html">Login</a></li>
+                   <li><a class="dropdown-item" href="#!">Settings</a></li>
+                   <li><hr class="dropdown-divider" /></li>
+                   <li><a class="dropdown-item" href="#!">Logout</a></li>
+               </ul>
+           </li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+</div>
+</div>
+
+<!-- Product section-->
+<section class="py-5">
+ <div class="container px-4 px-lg-5 my-5">
+     <div class="row gx-4 gx-lg-5 align-items-center">
+         <div class="col-md-6"><img onmouseover="AmpliarImg (this)" onmouseout="AchicarImg(this)"class="card-img-top mb-5 mb-md-0" src="./imagen/Clifford, el gran perro rojo.png" alt="..." /></div>
+         <div class="col-md-6">
+             <h1 class="display-5 fw-bolder" style="color:blue;">Compra Entrada Online</h1>
+             <div class="fs-5 mb-5">
+               <span class="d-flex justify-content-flex-end" style="color:red;">1h 37m</span>
+                  <span class="d-flex justify-content-flex-end" style="color:silver;">ATP</span>
+                    <span class="d-flex justify-content-flex-end" style="color:silver;">Animacion</span>
+                    <span class="d-flex justify-content-flex-end" style="color:silver;">2D</span>
+             </div>
+             <p class="lead" style="color:white;">Basada en el popular dibujito del perro rojo Clifford. Cuenta la historia de como el inmenso amor de una niña a su pequeño perro, causa que éste crezca en enorme tamaño.</p>
+              <span style="font-size:1.5em;">$1,000.00</span>
+             <div class="d-flex">
+                 <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
+                            <button class="btn btn-outline-dark flex-shrink-0" class="text-muted" type="button">
+                                  Entrada Exclusivo
+                              </button>
+                            </div>
+                            <div class="cart-items">
+                            </div>
+                            <br>
+                            <div class="cart-total">
+                                  <strong class="cart-total-title">Total</strong>
+                        <span class="cart-total-price">$0</span>
+              </div>
+      </div>
+  </div>
+</div>
+</section>
+
+  <footer style="text-align: center;" class="bg-dark">
+
+<div class="info-box">
+  <h6 class="texto2" style="color:silver; margin-top: 30px">TocCine<br></h6>
+<div id="flex-p">
+  <p class="linea">
+-----------------------</p>
+      <p class="big">
+        <br>Contactanos<img class="icon"src="./imagen/instagram.png" alt=""></img>
+        <img class="icon"src="./imagen/ubicacion.png" alt=""></img></p>
+          <button onclick="adventencia()">haz clic</button>
+    </div>
+ </div>
+
+ <div class="footer__col-list">
+
+
+               <li class="ma0"><a class="underline" href="proyecto nuevo.html">Inicio</a></li>
+
+               <li class="ma0"><a class="underline" href="#Estrenos">Cartelera/Programacion</a></li>
+
+               <li class="ma0"><a class="underline" href="#Proximos Estrenos">Proximos Estrenos</a></li>
+
+               <li class="ma0"><a class="underline" href="#Contacto">Contacto</a></li>
+
+           </ul>
+       </div>
+
+  </footer>
+
+  <h2 class="abajo" style="text-align:center;">Copyright 2021</h2>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
