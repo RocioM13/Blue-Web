@@ -164,3 +164,10 @@ margin-top: 60px;}
 @media (max-width:575px) {.linea {display: none;}}
 @media (max-width:575px) {.box {width: 130px; height: 400px; margin-left: 3%;}}
 @media (max-width:575px) {.cine{font-size: 1.4em;}}
+ 
+@media (max-width: 576px) {.box  {width: 130px; height: 400px; margin-left: 3%; }}
+@media (orientation: landscape ) and (max-width: 991px) {.box  {width: 130px; height: 400px; margin-left: 3%; }}
+@media (orientation: landscape ) and (max-width: 991px) {.cine{font-size: 1.4em;}}
+@media (max-width: 576px) { .cine{font-size: 1.4em;} }
+@media (orientation: portrait) and (max-width: 576px) {.box  {width: 130px; height: 400px; margin-left: 3%;}}
+
